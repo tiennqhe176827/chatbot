@@ -1,0 +1,187 @@
+{
+    "intents": [
+        {
+            "tag": "ngoaile",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Hãy đặt lại câu hỏi của bạn!",
+                "Tôi không hiểu câu hỏi của bạn!",
+                "Tôi chưa thể trả lời câu hỏi này!",
+                "Vui lòng cung cấp thông tin thêm"
+            ]
+        },
+        {
+            "tag": "chaohoi",
+            "patterns": [
+                "Xin chào",
+                "Bạn khỏe không",
+                "Có ai ở đó không?",
+                "Hello",
+                "Hi",
+                "chào bạn",
+                "Chào buổi sáng",
+                "cho tôi hỏi",
+                "tôi muốn bạn giúp cái này"
+            ],
+            "responses": [
+                "Xin chào, tôi có thể giúp gì cho bạn!",
+                "Rất vui được gặp bạn! Bạn muốn tôi giúp gì?",
+                "Xin chào, bạn cần tôi giúp gì?",
+                "Xin chào, chúc bạn một ngày tốt lành. Tôi có thể giúp gì cho bạn"
+            ]
+        },
+        {
+            "tag": "tambiet",
+            "patterns": [
+                "Tạm biệt",
+                "Hẹn gặp lại sau",
+                "Rất vui khi trò chuyện với bạn, tạm biệt",
+                "Hẹn bạn lần sau nhé"
+            ],
+            "responses": [
+                "Hẹn gặp lại bạn!",
+                "Chúc bạn một ngày tốt lành",
+                "Tạm biệt! Hãy quay lại sớm nhé."
+            ]
+        },
+        {
+            "tag": "camon",
+            "patterns": [
+                "Cảm ơn",
+                "Cảm ơn bạn",
+                "Rất hữu ích",
+                "Tuyệt vời",
+                "Cảm ơn đã giúp đỡ tôi"
+            ],
+            "responses": [
+                "Rất vui được giúp bạn!",
+                "Không có gì! Bất cứ lúc nào bạn cần!",
+                "Tôi luôn sẵn sàng giúp đỡ!"
+            ]
+        },
+        {
+            "tag": "roiloanloaiau",
+            "patterns": [
+                "Rối loạn lo âu là gì?",
+                "Tôi nghe nói về rối loạn lo âu, nó là gì?",
+                "Rối loạn lo âu là tình trạng như thế nào?"
+            ],
+            "responses": [
+                "Rối loạn lo âu là một tình trạng cảm xúc đặc trưng bởi cảm giác lo sợ, lo lắng mơ hồ kèm theo các triệu chứng như đau đầu, hồi hộp, vã mồ hôi, siết chặt ngực và các vấn đề về thần kinh tự chủ.",
+                "Rối loạn lo âu là những lo âu không có nguyên nhân rõ ràng hoặc quá mức, gây ảnh hưởng đến cuộc sống hàng ngày của người bệnh."
+            ]
+        },
+        {
+            "tag": "loaianloai",
+            "patterns": [
+                "Có những loại rối loạn lo âu nào?",
+                "Rối loạn lo âu có mấy loại?",
+                "Các loại rối loạn lo âu là gì?"
+            ],
+            "responses": [
+                "Có nhiều loại rối loạn lo âu, bao gồm: Rối loạn lo âu lan tỏa, Rối loạn ám ảnh cưỡng chế (OCD), Rối loạn hoảng loạn, và Nỗi ám ảnh xã hội.",
+                "Các loại rối loạn lo âu phổ biến bao gồm: Rối loạn lo âu lan tỏa, ám ảnh cưỡng chế, hoảng loạn và ám ảnh xã hội."
+            ]
+        },
+        {
+            "tag": "rslanthoai",
+            "patterns": [
+                "Rối loạn lo âu lan tỏa là gì?",
+                "Rối loạn lo âu toàn thể là như thế nào?",
+                "Rối loạn lo âu lan tỏa có những triệu chứng gì?"
+            ],
+            "responses": [
+                "Rối loạn lo âu lan tỏa (hay còn gọi là rối loạn lo âu toàn thể) là tình trạng lo lắng quá mức về nhiều sự kiện, hoạt động, không thể kiểm soát. Các triệu chứng bao gồm căng thẳng cơ, khó ngủ, bực tức, và bứt rứt."
+            ]
+        },
+        {
+            "tag": "rsocd",
+            "patterns": [
+                "Rối loạn ám ảnh cưỡng chế là gì?",
+                "OCD là gì?",
+                "Các hành vi cưỡng chế trong OCD là gì?"
+            ],
+            "responses": [
+                "Rối loạn ám ảnh cưỡng chế (OCD) là tình trạng người bệnh có những suy nghĩ ám ảnh và hành vi lặp đi lặp lại không thể kiểm soát, ví dụ như hành vi rửa tay, sắp xếp đồ đạc liên tục do lo sợ vi khuẩn."
+            ]
+        },
+        {
+            "tag": "rshoanloang",
+            "patterns": [
+                "Rối loạn hoảng loạn là gì?",
+                "Cơn hoảng loạn là thế nào?",
+                "Triệu chứng của rối loạn hoảng loạn?"
+            ],
+            "responses": [
+                "Rối loạn hoảng loạn là tình trạng người bệnh trải qua những cơn hoảng sợ đột ngột, với các triệu chứng như đau tim, khó thở, và cảm giác sợ chết. Các cơn hoảng loạn thường kéo dài trong vài phút hoặc lâu hơn."
+            ]
+        },
+        {
+            "tag": "rslxh",
+            "patterns": [
+                "Rối loạn lo âu xã hội là gì?",
+                "Ám ảnh xã hội là tình trạng như thế nào?",
+                "Triệu chứng của rối loạn lo âu xã hội?"
+            ],
+            "responses": [
+                "Rối loạn lo âu xã hội (hay ám ảnh xã hội) là tình trạng lo lắng quá mức trong các tình huống xã hội, sợ bị xấu hổ, bẽ mặt nếu không đáp ứng được kỳ vọng của người khác."
+            ]
+        },
+        {
+            "tag": "trieuchungrl",
+            "patterns": [
+                "Triệu chứng của rối loạn lo âu là gì?",
+                "Rối loạn lo âu có triệu chứng gì?",
+                "Làm sao biết tôi có rối loạn lo âu không?"
+            ],
+            "responses": [
+                "Triệu chứng của rối loạn lo âu bao gồm hoảng loạn, khó ngủ, cảm giác không an toàn, đau ngực, khó thở, tim đập nhanh, và giảm khả năng tập trung. Bạn cũng có thể có những hành vi lặp lại như rửa tay nhiều lần."
+            ]
+        },
+        {
+            "tag": "nguyennhanrll",
+            "patterns": [
+                "Nguyên nhân gây ra rối loạn lo âu?",
+                "Tại sao tôi bị rối loạn lo âu?",
+                "Rối loạn lo âu có thể do nguyên nhân nào?"
+            ],
+            "responses": [
+                "Nguyên nhân gây ra rối loạn lo âu có thể do di truyền, yếu tố tâm lý như sang chấn tâm lý trong quá khứ, yếu tố môi trường xã hội như căng thẳng, và các yếu tố sinh hóa thần kinh."
+            ]
+        },
+        {
+            "tag": "dieutri",
+            "patterns": [
+                "Cách điều trị rối loạn lo âu?",
+                "Điều trị rối loạn lo âu như thế nào?",
+                "Tôi cần làm gì để chữa rối loạn lo âu?"
+            ],
+            "responses": [
+                "Điều trị rối loạn lo âu hiệu quả nhất là kết hợp liệu pháp tâm lý và thuốc. Liệu pháp tâm lý giúp bạn hiểu rõ về tình trạng của mình và tìm cách đối phó. Điều trị thuốc có thể kéo dài từ 6 tháng đến 1 năm hoặc hơn, và bạn cần thăm khám thường xuyên với bác sĩ để điều chỉnh liều lượng thuốc."
+            ]
+        },
+        {
+            "tag": "cacbiquocdieu",
+            "patterns": [
+                "Có những cách nào để giảm rối loạn lo âu?",
+                "Làm sao để giảm lo âu?",
+                "Tự giúp mình giảm lo âu?"
+            ],
+            "responses": [
+                "Bạn có thể thử một số cách như dành thời gian thư giãn mỗi ngày, tập thể dục, chăm sóc giấc ngủ, tránh caffein và chất kích thích, tập luyện hít thở sâu. Những cách này giúp giảm căng thẳng và lo âu, nhưng bạn cũng cần thảo luận với chuyên gia để tìm phương pháp phù hợp nhất."
+            ]
+        },
+        {
+            "tag": "nghiencuu",
+            "patterns": [
+                "Nghiên cứu nào đã chỉ ra các phương pháp điều trị rối loạn lo âu?",
+                "Các nghiên cứu về rối loạn lo âu mới nhất?"
+            ],
+            "responses": [
+                "Một số nghiên cứu gần đây cho thấy các liệu pháp như liệu pháp nhận thức hành vi (CBT) có hiệu quả trong việc điều trị rối loạn lo âu, kết hợp với thuốc chống lo âu như SSRI cũng mang lại kết quả tốt."
+            ]
+        }
+    ]
+}
